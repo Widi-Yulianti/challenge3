@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
-<navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main_navigation"
-    app:startDestination="@id/list_abjad_fragment">
+//<?xml version="1.0" encoding="utf-8"?>
+//<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+//    xmlns:app="http://schemas.android.com/apk/res-auto"
+//    xmlns:tools="http://schemas.android.com/tools"
+//    android:id="@+id/main_navigation"
+//    app:startDestination="@id/list_abjad_fragment">
 
-    <fragment
-        android:id="@+id/list_abjad_fragment"
-        android:name="com.example.chaptertiga.fragment.List_abjad_fragment"
-        android:label="fragment_list_abjad_fragment"
-        tools:layout="@layout/fragment_list_abjad_fragment" >
-        <action
-            android:id="@+id/action_list_abjad_fragment_to_list_kata_Fragment"
-            app:destination="@id/list_kata_Fragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/list_kata_Fragment"
-        android:name="com.example.chaptertiga.fragment.List_kata_Fragment"
-        android:label="fragment_list_kata_fragment"
-        tools:layout="@layout/fragment_list_kata_fragment" />
-</navigation>
+//    <fragment
+//        android:id="@+id/list_abjad_fragment"
+//        android:name="com.example.chaptertiga.fragment.List_abjad_fragment"
+//        android:label="fragment_list_abjad_fragment"
+//        tools:layout="@layout/fragment_list_abjad_fragment" >
+//        <action
+//            android:id="@+id/action_list_abjad_fragment_to_list_kata_Fragment"
+//            app:destination="@id/list_kata_Fragment" />
+//    </fragment>
+//    <fragment
+//        android:id="@+id/list_kata_Fragment"
+//        android:name="com.example.chaptertiga.fragment.List_kata_Fragment"
+//        android:label="fragment_list_kata_fragment"
+//        tools:layout="@layout/fragment_list_kata_fragment" />
+//</navigation>
